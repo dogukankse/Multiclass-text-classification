@@ -1,17 +1,16 @@
 # Multiclass Text Classification
  
- ### Özet
+ ### Summary
 
-- Python 3.6 dili kullanılarak programlanmıştır.
-- Gereksinimler ***requirements.txt*** adlı dosyanın içerisindedir.
-- Gereksinimler dizinde `pip install -r requirements.txt` komutuyla indirilebilir. 
-- Projede Zemberek-NLP 0.16 kullanılmıştır. ( Link: [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp/) )
-- Zemberek kütüphanesinin çalışması için en az [JDK8](https://www.oracle.com/technetwork/java/javase/downloads/index.html) gerekmektedir.
-- Zemberek kütüphanesini kullanabilmek için gRPC kullanılmıştır.
-- gRPC sunucusunun açmak için dizinde `java -jar zemberek-full.jar StartGrpcServer --dataRoot .\zemberek_data\` komutunun çalıştırılması gerekmektedir.
-- Stop words Moodle'da verilenler kullanılmıştır.
+- Programmed using Python 3.6 language.
+- Requirements  is in the file named ***requirements.txt *** .
+- Requirements can be downloaded with the command `pip install -r requirements.txt` in the directory.
+- Zemberek-NLP 0.16 is used in the project. (Link: [Zemberek-NLP] (https://github.com/ahmetaa/zemberek-nlp/))
+- Zemberek library requires [JDK8] (https://www.oracle.com/technetwork/java/javase/downloads/index.html).
+- To use Zemberek library, gRPC has been used.
+- To open the gRPC server, the command `java -jar zemberek-full.jar StartGrpcServer --dataRoot. \ zemberek_data \` should be run in the directory.
 
-### Gereksinimler
+### Requirements
 - Java 8
 - Python 3.6
     - *grpcio==1.20.1*
