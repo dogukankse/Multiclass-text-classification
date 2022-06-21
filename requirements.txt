@@ -1,5 +1,5 @@
 grpcio==1.20.1
-numpy==1.16.3
+numpy==1.22.0
 zemberek_grpc==0.16.1
 nltk==3.4.1
 pandas==0.24.2
